@@ -1,4 +1,4 @@
-# cuda'yı şu adresten kur:
+# cuda'yı şu adresten kur: 
 # https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
 
 # 1. CUDA kurulumu bittikten sonra kontrol edin:
