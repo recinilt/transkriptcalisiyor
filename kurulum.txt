@@ -1,0 +1,19 @@
+# cuda'yı şu adresten kur:
+# https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
+
+# 1. CUDA kurulumu bittikten sonra kontrol edin:
+nvcc --version
+
+# 2. Python sanal ortam oluşturun (önerilen):
+python -m venv whisper_env
+whisper_env\Scripts\activate
+
+# 3. pip'i güncelleyin:
+python -m pip install --upgrade pip
+
+# 4. requirements.txt'i kurun:
+pip install -r requirements.txt
+
+# 5. FFmpeg'i kurun (eğer yoksa):
+# https://www.ffmpeg.org/download.html adresinden indirin
+# veya chocolatey ile: choco install ffmpeg 
