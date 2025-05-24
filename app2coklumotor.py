@@ -341,7 +341,7 @@ def transcribe_with_vosk(audio_path: str, language: str = "tr") -> Dict:
     full_text = []
     
     while True:
-        data = wf.read(4000)
+        data = wf.readframes(4000)
         if len(data) == 0:
             break
         if rec.AcceptWaveform(data):
